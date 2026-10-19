@@ -2,7 +2,7 @@
 
 此公开仓库仅用于分发 GitPai Windows x64 安装包、便携包和签名更新清单，不包含私有应用源码。
 
-从 [Releases](https://github.com/keepmas/gitpai-releases/releases) 下载。安装包自包含，无需另装 .NET。
+请使用 **[GitPai 官方下载页](https://keepmas.github.io/gitpai-releases/)**，页面仅展示安装器、便携 ZIP、校验文件及安装说明。安装包自包含，无需另装 .NET。
 
 首次从 1.1.7 或更早版本升级时，请先正常停止加速并退出旧程序，再手动安装。安装器默认安装到当前用户目录，配置和日志独立保存，卸载保留用户数据。
 
@@ -13,4 +13,4 @@
 公开更新公钥的 SPKI DER SHA-256 指纹：
 `773d427c409c3ba581161eee09accb93b5a9bbae0ebbe4f83459676b8808be9b`
 
-稳定更新入口使用 `updater` Release 下的 `stable-win-x64-v2.json`。此入口发布签名元数据，不是安装版本；请从具体版本 Release 下载安装器。公开仓库不保存签名私钥、用户配置、日志或 CA 私钥。
+稳定更新入口使用 `updater` Release 下的 `stable-win-x64-v2.json`。此入口发布签名元数据，不是安装版本；手动安装请使用上述官方下载页。公开仓库不保存签名私钥、用户配置、日志或 CA 私钥。
